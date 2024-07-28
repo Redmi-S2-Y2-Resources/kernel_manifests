@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="YSL" fetch="https://github.com/Redmi-S2-Y2-Resources" clone-depth="1" />
+		
+        <!-- Trees -->
+        <project path="kernel" name="kernel_xiaomi_ysl" remote="YSL" revision="main" />
+        <project path="kernel/arch/arm64/boot/dts/xiaomi-msm8953" name="kernel_devicetree_xiaomi-msm8953v2" remote="YSL" revision="main" />
+
+</manifest>
